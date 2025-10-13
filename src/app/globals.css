@@ -1,4 +1,5 @@
 @import "tailwindcss";
+
 :root {
   --primary-color: #4668ee;
   --text-color: #1a202c;
@@ -13,4 +14,26 @@ body {
   height: 100%;
   overflow: hidden;
   font-family: "Roboto Slab", serif;
+  /* パフォーマンス最適化 */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* パフォーマンス最適化: ハードウェアアクセラレーション */
+* {
+  -webkit-backface-visibility: hidden;
+  -moz-backface-visibility: hidden;
+  -webkit-transform: translate3d(0, 0, 0);
+  -moz-transform: translate3d(0, 0, 0);
+}
+
+/* パフォーマンス最適化: スクロールの最適化 */
+* {
+  scroll-behavior: smooth;
+  will-change: auto;
+}
+
+/* パフォーマンス最適化: 画像の読み込み */
+img {
+  content-visibility: auto;
 }

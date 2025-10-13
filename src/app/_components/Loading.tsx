@@ -20,7 +20,7 @@ export const Loading = () => {
             bg-gradient-to-r from-blue-400 to-blue-500 
             animate-pulse mb-4"
           >
-            Ren Okazaki's Portfolio
+            Ren Okazaki&apos;s Portfolio
           </h1>
 
           {/* バウンシングドット */}
