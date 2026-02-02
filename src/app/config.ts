@@ -125,7 +125,7 @@ export const config = {
     profile: {
       title: "プロフィール",
       icon: "User",
-      content: "名前：岡崎 蓮\n西暦：1999年8月21日 25歳\n",
+      content: "名前：岡崎 蓮\n西暦：1999年8月21日 26歳\n",
     },
     skills: {
       title: "スキル",
