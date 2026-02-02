@@ -125,7 +125,7 @@ export const config = {
     profile: {
       title: "プロフィール",
       icon: "User",
-      content: "名前：岡崎 蓮\n西暦：1999年8月21日 25歳\n",
+      content: "名前：岡崎 蓮\n西暦：1999年8月21日 26歳\n",
     },
     skills: {
       title: "スキル",
@@ -138,17 +138,20 @@ export const config = {
     achievement: {
       title: "最近の開発実績",
       icon: "Heart",
-      content: `【Code Lesson プロジェクト参加中】
+      content: `【Code Lesson プロジェクト参加】
 プログラミング学習webサイト「Code Lesson」にコントリビューターとして参加。Next.js、Express、TypeScript、Docker、AWS、GitHub Actionsを使用。
 URL: https://code-lesson.com/
 
 
-【AI駆動個人開発ハッカソン参加中】
+【AI駆動個人開発ハッカソン参加】
 マネタイズを目標としたAI駆動開発によるオリジナルプロダクト作成に挑戦中。\nスケジュール調整、プラン立て、旅行後の清算までを一元化するアプリを作成中。\nURL: https://travel-manager-gamma.vercel.app/
 
 
 【積極的なコミュニティ活動】
-チーム開発プロジェクト「Code Lesson」への参画、ハッカソンの参加、メンターとの技術相談、技術コミュニティへの参加、勉強会への積極的参加。`,
+チーム開発プロジェクト「Code Lesson」への参画、ハッカソンの参加、メンターとの技術相談、技術コミュニティへの参加、勉強会への積極的参加。
+
+【技術登壇】エンジニアが年末に学びを語る3分LT大会（2025年12月）
+本番環境特有の問題と解決プロセスをテーマに登壇し、実務で得た学びをアウトプット`,
     },
   },
 
